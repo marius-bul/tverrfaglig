@@ -1,0 +1,31 @@
+body {
+  background-color: antiquewhite;
+}
+
+.tittel {
+  font-size: 50;
+  color: gray;
+}
+
+.buy {
+  color: white;
+  background-color: red;
+  padding: 15px 90px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: rgb(0, 139, 21);
+}
+
+.hjelp{
+  color: rgb(0, 0, 0);
+  background-color: red;
+  padding: 15px 15px;
+  font-size: 25;
+}
+
+.hjelp:hover {
+background-color: chartreuse;
+}

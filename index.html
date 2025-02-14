@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logg Inn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Logg Inn</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Brukernavn:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Passord:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Logg Inn</button>
+        </form>
+        <p>Har du ikke en konto? <a href="register.html">Registrer deg</a></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
