@@ -10,5 +10,3 @@ function validateForm() {
     }
     return true; // Fortsetter innsendingen hvis passordene matcher
 }
-
-
